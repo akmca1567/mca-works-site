@@ -10,32 +10,31 @@
            color: #1d1d1f; line-height: 1.6; }
     h1 { font-weight: 600; letter-spacing: -0.02em; }
     h2 { font-weight: 600; margin-top: 40px; font-size: 1.1rem; }
-    ul { padding-left: 20px; }
     a { color: #0066cc; text-decoration: none; }
-    footer { margin-top: 60px; color: #86868b; font-size: 0.85rem; }
+    footer { margin-top: 60px; padding-top: 24px;
+             border-top: 1px solid #e5e5e7;
+             color: #86868b; font-size: 0.85rem; }
+    .legal-links { margin-bottom: 16px; }
+    .legal-links a { color: #86868b; margin-right: 16px; }
+    .legal-links a:hover { color: #0066cc; }
   </style>
 </head>
 <body>
   <h1>MCA Works, LLC</h1>
   <p>Independent software development based in Anchorage, Alaska.
-     We build focused iOS apps for people who care about getting
-     the details right — from professional license tracking to
-     outdoor pursuits to everyday tools.</p>
-
-  <h2>Apps</h2>
-  <ul>
-    <li>AuditReady PE — PE license renewal and CE tracking</li>
-    <li>NurseVault — nurse license and CE tracking</li>
-    <li>PickedIt — locksport progression tracker</li>
-    <li>Huntograph — backcountry hunting journal</li>
-    <li>LensLedger — contact lens replacement scheduler</li>
-  </ul>
+     We design and build focused iOS applications for professionals
+     and enthusiasts who care about getting the details right.</p>
 
   <h2>Contact</h2>
   <p><a href="mailto:hello@mca-works.com">hello@mca-works.com</a></p>
 
   <footer>
-    MCA Works, LLC &middot; Anchorage, Alaska<br>
+    <div class="legal-links">
+      <a href="/support">Support</a>
+      <a href="/privacy">Privacy</a>
+      <a href="/terms">Terms</a>
+    </div>
+    MCA Works, LLC &middot; 615 W 42nd Ave, Anchorage, AK 99503<br>
     Alaska Entity #10355932
   </footer>
 </body>
